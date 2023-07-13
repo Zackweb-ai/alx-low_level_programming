@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Print "Programming is like building a multilingual puzzle" using puts
- * Return is always 0
+ *  Return: Always 0 (Success)
  */
 
 int main(void)
