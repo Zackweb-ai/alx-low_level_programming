@@ -1,1 +1,2 @@
-This is a readme file
+# Readme File
+** 0x00. C - Hello, World **
