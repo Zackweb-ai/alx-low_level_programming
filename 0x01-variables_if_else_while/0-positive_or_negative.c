@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ *  * main - Entry point
+ *   *  print whether the number stored in the variable n is positive or negative.
+ *    *  Return: Always 0 (Success)
+ *     */
 int main(void)
 {
 		int n;
@@ -11,20 +13,21 @@ int main(void)
 		n = rand() - RAND_MAX / 2;
 		if (n>=1)
 		{
-			printf("%d is positive",n);
+			printf("%d is positive\n",n);
 		}
 		else
 		{
 			if (n<=0)
 			{
-				printf("%d is negative",n);
+				printf("%d is negative\n",n);
 			}
 		
 		}
 		else
 		{
 			if (n=0)
-			{												                                printf("%d is zero",n);
+			{
+				printf("%d is zero\n",n);
 			}
 
 									                }
