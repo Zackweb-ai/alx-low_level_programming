@@ -15,6 +15,6 @@ int main(void)
 		printf("%d", my_digit);
 		my_digit++;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
