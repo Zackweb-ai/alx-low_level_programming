@@ -2,7 +2,7 @@
 
 /**
  * prints the aplhabet a - z
- * print_alphabet uses the _putchar function to print
+ * print_alphabet - uses the _putchar function to print
  * the alphabet, in lowercase, followed by a new line.
  */
 
