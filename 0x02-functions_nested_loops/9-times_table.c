@@ -20,6 +20,7 @@ void times_table(void)
 			if (pd == 0)
 			{
 				_putchar(pd + 48);
+			}
 			if (pd < 10 && multi != 0)
 			{
 				_putchar(',');
