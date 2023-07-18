@@ -3,8 +3,9 @@
 /**
  * _islower - function that checks if character
  *	is lowercase
+ * c: checks input of the function
  *Return: returns 1 if c is lowercase otherwise
-	always return 0 (Success)
+ *	always return 0 (Success)
  *
  */
 
