@@ -2,12 +2,12 @@
 
 /**
  * print_sign - prints + if n is greater than 0
- * 	and 0 if n is 0 , and - if n is less
- * 	than 0 .
+ *	and 0 if n is 0 , and - if n is less
+ *	than 0 .
  *
  * @n: int type input for the function
  *
- * Return  1 if +, 0 if 0, -1 if -
+ * Return:  1 if +, 0 if 0, -1 if -
  */
 
 int print_sign(int n)
