@@ -17,7 +17,7 @@ void print_diagonal(int n)
 		{
 			for (space = 1; space <= num; space++)
 				_putchar(' ');
-			_putchar(92); // Print '\', which is the backslash character
+			_putchar(92); /* Print '\', which is the backslash character*/
 			_putchar('\n');
 		}
 	}
