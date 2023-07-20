@@ -13,11 +13,15 @@ void print_diagonal(int n)
 		_putchar('\n');
 	else
 	{
-		for (num = 1; num <= n; num++)
+		for (num = 1; num < n; num++)
 		{
-			for (space = 1; space <= num; space++)
-				_putchar(' ');
-			_putchar(92); /* Print '\', which is the backslash character*/
+			for (space = 0; space < num; space++)
+			{
+				if (space == num)
+					_putchar('\\');
+				else if (space < num)
+					_putchar(' ');
+			}
 			_putchar('\n');
 		}
 	}
