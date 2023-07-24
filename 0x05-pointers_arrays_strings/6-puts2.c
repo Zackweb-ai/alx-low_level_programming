@@ -14,7 +14,7 @@ void puts2(char *str)
 	char *d = str;
 	int i;
 
-	while (*d != '\n')
+	while (*d != '\0')
 	{
 		d++;
 		lenght++;
