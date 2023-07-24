@@ -9,7 +9,7 @@ void print_rev(char *s)
 {
 	int c;
 
-	while (*s[c])
+	while (s[c])
 		c++;
 
 	while (c--)
