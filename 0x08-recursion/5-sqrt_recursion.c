@@ -14,11 +14,11 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * square -  finds the square root 
+ * square - finds the square root
  * @in: current integer being checked
  * @n: number
  * Return: the result
-*/
+ */
 
 int square(int n, int in)
 {
