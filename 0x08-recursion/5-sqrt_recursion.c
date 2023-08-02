@@ -14,7 +14,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * actual_sqrt_recursion -  finds the square root
+ * square -  finds the square root
  * @n: number
  * @in: current integer being checked
  * Return: the result
