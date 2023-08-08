@@ -4,14 +4,14 @@
  * str_concat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
- * Return: pointer 
+ * Return: pointer
  */
 
 char *str_concat(char *s1, char *s2)
 {
-	int a, b;	
+	int a, b;
 	char *c;
-	
+
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
