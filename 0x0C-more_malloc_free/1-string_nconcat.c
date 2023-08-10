@@ -15,9 +15,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *str;
 	unsigned int i = 0, j = 0, lens1 = 0, lens2 = 0;
 
-	while (s1 && s1[len1])
+	while (s1 && s1[lens1])
 		lens1++;
-	while (s2 && s2[len2])
+	while (s2 && s2[lens2])
 		lens2++;
 
 	if (n < lens2)
