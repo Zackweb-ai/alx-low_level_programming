@@ -18,16 +18,16 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int index, bit_count = 0;
-
-	unsigned long int bit_difference
+	int i, count = 0;
+	unsigned long int current;
 	unsigned long int exclusive = n ^ m;
 
-	for (index = 63; index >= 0; index--)
+	for (i = 63; i >= 0; i--)
 	{
-	bit_difference = exclusive >> index;
-	if (bit_difference &1)
-		bit_count++;
+		current = exclusive >> i;
+		if (current & 1)
+			count++;
 	}
-	return (bit_count);
+
+	return (count);
 }
