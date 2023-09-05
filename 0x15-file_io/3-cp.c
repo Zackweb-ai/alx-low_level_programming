@@ -6,7 +6,8 @@ char *allocate_buffer_for_file_contents(char *output_file);
 void safely_close_file_descriptor(int fd);
 
 /**
- * allocate_buffer_for_file_contents - Allocates a 1024-byte buffer for file contents.
+ * allocate_buffer_for_file_contents - Allocates a
+ * 1024-byte buffer for file contents.
  * @output_file: The name of the file to which data will be copied.
  *
  * Return: A pointer to the newly-allocated buffer.
@@ -75,7 +76,7 @@ destination_file = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 do {
 if (source_file == -1 || read_result == -1)
 {
-dprintf(STDERR_FILENO,"Error: Can't read from file %s\n", argv[1]);
+dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 free(data_buffer);
 exit(98);
 }
@@ -83,7 +84,7 @@ exit(98);
 write_result = write(destination_file, data_buffer, read_result);
 if (destination_file == -1 || write_result == -1)
 {
-dprintf(STDERR_FILENO,"Error: Can't write to %s\n", argv[2]);
+dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 free(data_buffer);
 exit(99);
 }
